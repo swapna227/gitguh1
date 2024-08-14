@@ -1,0 +1,14 @@
+import java.awt.*; 
+import java.applet.*;
+
+/*<applet code="appletExample" width=200 height=300></applet>*/
+
+public class appletExample extends Applet
+{
+
+	public void paint(Graphics g)
+	{
+		g.drawString("Hello World!",20,20);
+	}
+	
+}
